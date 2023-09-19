@@ -1,0 +1,39 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #57577a;
+  --main-font: montserrat;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.imageSection {
+  display: flex;
+}

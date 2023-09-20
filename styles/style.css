@@ -5,7 +5,13 @@
 }
 
 :root {
-  --main-color: #57577a;
+  --main-color: #5ec2bc;
+  --second-color: #00aaa3;
+  --third-color: #e7fefc;
+  --background-color: #e8f3f1;
+  --main-text-color: #e7fefc;
+  --second-text-color: #334b49;
+
   --main-font: montserrat;
 }
 
@@ -32,8 +38,45 @@ a {
 
 body {
   font-family: var(--main-font);
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--second-text-color);
+}
+
+header {
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  background-color: var(--main-color);
+  color: var(--main-text-color);
 }
 
 .imageSection {
+  text-align: center;
   display: flex;
+  flex-direction: row;
+  background-color: var(--main-color);
+  padding: 40px 10px 10px 10px;
+}
+
+.images {
+  padding: 10px 10px 10px 10px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  background-color: var(--second-color);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--background-color);
+  padding: 10px 10px 10px 10px;
+}
+
+.menuElement {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 20px 20px 20px 20px;
 }

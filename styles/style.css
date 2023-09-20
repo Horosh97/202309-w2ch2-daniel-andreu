@@ -53,7 +53,6 @@ header {
 .imageSection {
   text-align: center;
   display: flex;
-  flex-direction: row;
   background-color: var(--main-color);
   padding: 40px 10px 10px 10px;
 }
@@ -79,4 +78,19 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
   padding: 20px 20px 20px 20px;
+}
+
+.article {
+  padding: 40px 40px 40px 40px;
+}
+
+.basicTitle {
+  text-transform: uppercase;
+}
+
+.sectionParalel {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
 }
